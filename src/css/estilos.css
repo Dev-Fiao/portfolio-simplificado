@@ -188,7 +188,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 .projetos .btn-mostrar-projetos:hover {
@@ -196,9 +196,35 @@ body {
     transition: 0.3s;
 }
 
-.projetos .btn-mostrar-projetos.remover {
+.projetos .btn-mostrar-projetos.remover  {
     display: none;
 }
+
+    .projetos .btn-esconder-projetos {
+        background: none;
+        border: 1px solid #fff;
+        border-radius: 15px;
+        color: #fff;
+        width: 180px;
+        padding: 20px;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .projetos .btn-esconder-projetos:hover {
+        background-color: #9443d8;
+        transition: 0.3s;
+    }
+
+    .projetos .btn-esconder-projetos.remover  {
+        display: none;
+    }
+
 
 @keyframes gradient-animation {
     0% {
