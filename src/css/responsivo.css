@@ -36,6 +36,11 @@
 
     }
 
+    .projetos .btn-inicio{
+        margin:50px auto;
+        float: none;
+    }
+
     .projetos{
         padding: 30px;
     }

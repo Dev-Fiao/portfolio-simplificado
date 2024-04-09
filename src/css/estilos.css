@@ -225,6 +225,24 @@ body {
         display: none;
     }
 
+    .projetos .btn-inicio{
+        background: none;
+        border: 1px solid #fff;
+        border-radius: 15px;
+        color: #fff;
+        width: 80px;
+        padding: 5px;
+        font-size: 8px;
+        font-weight: 600;
+        margin:50px 0px 50px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        float: right;
+        
+    }
+
 
 @keyframes gradient-animation {
     0% {
